@@ -1,11 +1,11 @@
 import React, { useState, useContext, useEffect } from "react";
 import { AuthContext } from "./context/AuthContext.jsx";
-import LoginForm from "../components/Auth/LoginForm.jsx";
-import RegisterForm from "../components/Auth/RegisterForm.jsx";
-import UserList from "../components/Sidebar/UserList.jsx";
-import ChatBox from "../components/Chat/ChatBox.jsx";
-import MessageInput from "../components/Chat/MessageInput.jsx";
-import TypingIndicator from "../components/Chat/TypingIndicator.jsx";
+import LoginForm from "./components/Auth/LoginForm.jsx";
+import RegisterForm from "./components/Auth/RegisterForm.jsx";
+import UserList from "./components/Sidebar/UserList.jsx";
+import ChatBox from "./components/Chat/ChatBox.jsx";
+import MessageInput from "./components/Chat/MessageInput.jsx";
+import TypingIndicator from "./components/Chat/TypingIndicator.jsx";
 import Notification from "./components/Notification.jsx";
 import { connectSocket, getSocket } from "./utils/socket.jsx";
 import { getUsers } from "./api/auth.jsx";
